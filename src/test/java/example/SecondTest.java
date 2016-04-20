@@ -11,19 +11,18 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;   
 import org.testng.annotations.AfterTest; 
 public class SecondTest {
-	 private WebDriver driver;       
-     @Test              
-     public void testEasy() {    
+	 private static WebDriver driver;       
+           
+     public static void main(String[] args) {   
+    	  driver = new FirefoxDriver();  
          driver.get("http://www.guru99.com/selenium-tutorial.html");  
          String title = driver.getTitle();                
          AssertJUnit.assertTrue(title.contains("Free Selenium Tutorials"));       
-     }   
-     @BeforeTest
-     public void beforeTest() {  
-         driver = new FirefoxDriver();  
-     }       
-     @AfterTest
-     public void afterTest() {
+    
+       
+   
+   
+    
          driver.quit();          
      }  
 }
