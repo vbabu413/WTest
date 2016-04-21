@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: example.SecondTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.95 sec
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.082 sec <<< FAILURE!
+testEasy(example.SecondTest)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at example.SecondTest.testEasy(SecondTest.java:19)
+
