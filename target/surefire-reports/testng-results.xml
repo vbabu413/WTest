@@ -2,29 +2,27 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="example.SecondTest" duration-ms="10680" started-at="2016-04-22T06:02:39Z" finished-at="2016-04-22T06:02:50Z">
+  <suite name="example.SecondTest" duration-ms="4737" started-at="2016-04-22T07:43:45Z" finished-at="2016-04-22T07:43:49Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="10680" started-at="2016-04-22T06:02:39Z" finished-at="2016-04-22T06:02:50Z">
+    <test name="Command line test" duration-ms="4737" started-at="2016-04-22T07:43:45Z" finished-at="2016-04-22T07:43:49Z">
       <class name="example.SecondTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.SecondTest@18047193]" name="beforeTest" is-config="true" duration-ms="10668" started-at="2016-04-22T11:32:39Z" finished-at="2016-04-22T11:32:50Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.SecondTest@18047193]" name="beforeTest" is-config="true" duration-ms="4715" started-at="2016-04-22T13:13:45Z" finished-at="2016-04-22T13:13:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="testEasy()[pri:0, instance:example.SecondTest@18047193]" name="testEasy" duration-ms="1" started-at="2016-04-22T11:32:50Z" finished-at="2016-04-22T11:32:50Z">
+        <test-method status="FAIL" signature="testEasy()[pri:0, instance:example.SecondTest@18047193]" name="testEasy" duration-ms="2" started-at="2016-04-22T13:13:49Z" finished-at="2016-04-22T13:13:49Z">
           <exception class="java.lang.Error">
             <message>
-              <![CDATA[Unresolved compilation problems: 
-	madhu cannot be resolved to a type
-	Syntax error on token "testing", ; expected
+              <![CDATA[Unresolved compilation problem: 
+	Syntax error on token "Generation", ; expected
 ]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-	madhu cannot be resolved to a type
-	Syntax error on token "testing", ; expected
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "Generation", ; expected
 
-	at example.SecondTest.testEasy(SecondTest.java:17)
+	at example.SecondTest.testEasy(SecondTest.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.SecondTest@18047193]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-04-22T11:32:50Z" finished-at="2016-04-22T11:32:50Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.SecondTest@18047193]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-22T13:13:49Z" finished-at="2016-04-22T13:13:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
