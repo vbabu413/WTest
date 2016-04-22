@@ -14,7 +14,7 @@ public class SecondTest {
     public void testEasy() {    
     //    driver.get("http://www.guru99.com/selenium-tutorial.html");  
     	driver.get("http://www.google.com");
-    	madhu error testing ;
+    	// madhu error testing ;
         String title = driver.getTitle(); 
         System.out.println(title);
      //   Assert.assertTrue(title.contains("Free Selenium Tutorials"));       
